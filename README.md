@@ -13,11 +13,11 @@ Use Android Studio to open and deploy this project
 a far way to develop an app respect current approach
 
 example of recursive function to generate strategic level of intelligence for the move of your opponents.
-it means a basic algoritm of Artificial Itelligence able to set the level of difficulty
+it means an algoritm of Artificial Itelligence able to set the level of difficulty
 
 example of use of Fragments
 
-example of intensive use of Graph
+example of intensive use of Graph and frame-animation
 
 example of runnable task to generate random animations
 
