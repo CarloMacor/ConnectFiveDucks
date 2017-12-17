@@ -25,3 +25,6 @@ example of Old Fation Graph of game interface
 
 # images of game
 
+![img_1](https://user-images.githubusercontent.com/31183408/34081632-4606e0a6-e350-11e7-9705-2bd90f40c390.png)
+
+![img_2](https://user-images.githubusercontent.com/31183408/34081634-4a850f7c-e350-11e7-9eba-9c6d6af80ecf.png)
