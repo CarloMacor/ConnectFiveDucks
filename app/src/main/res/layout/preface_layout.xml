@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/sfondi_cancello">
+
+
+<!-- Muppets -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:id="@+id/frameDuck"
+        android:scaleType="fitXY"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageG1"
+            android:layout_gravity="center_horizontal|bottom|right"
+            android:src="@drawable/gobbo1"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageG2"
+            android:layout_gravity="center_horizontal|bottom|right"
+            android:src="@drawable/guardia1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageG3"
+            android:layout_gravity="center_horizontal|bottom|right"
+            android:src="@drawable/capitana1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="301dp"
+            android:layout_height="390dp"
+            android:id="@+id/imageG4"
+            android:layout_gravity="center_horizontal|bottom|right"
+            android:src="@drawable/cattivo1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="301dp"
+            android:layout_height="390dp"
+            android:id="@+id/imageG5"
+            android:layout_gravity="center_horizontal|bottom|right"
+            android:src="@drawable/stregone1"
+            android:visibility="invisible" />
+
+
+    </FrameLayout>
+
+    <!-- Baloon with text -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:background="@drawable/fumettogrande"
+        android:id="@+id/baseFumettoGrande">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/FumettoGrande"
+            android:layout_gravity="left|top"
+            android:background="@drawable/fumettogrande" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Prima Riga"
+            android:id="@+id/FgrandeR1"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"
+            android:textColor="#330000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Seconda Riga"
+            android:id="@+id/FgrandeR2"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"
+            android:textColor="#330000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Terza Riga"
+            android:id="@+id/FgrandeR3"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"
+            android:textColor="#330000" />
+
+
+    </FrameLayout>
+
+
+</FrameLayout>

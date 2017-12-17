@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/sfondo_castello">
+
+    <!-- Title Connect Duck -->
+    <ImageView
+        android:id="@+id/idtitolo_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/titoloconnect" />
+
+    <ImageView
+        android:id="@+id/idtitolo_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/titolodack" />
+
+    <!-- 4 buttons menu -->
+    <ImageButton
+        android:id="@+id/but_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/but_play_state" />
+
+    <ImageButton
+        android:id="@+id/but_setup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/but_setup_state" />
+
+    <ImageButton
+        android:id="@+id/but_rules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/but_rules_state" />
+
+    <ImageButton
+        android:id="@+id/but_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/but_exit_state" />
+
+</RelativeLayout>

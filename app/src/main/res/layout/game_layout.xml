@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/sfondi_cancellobrown"
+    android:clickable="false"
+    android:focusable="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textptpartita"
+        android:layout_gravity="center_horizontal|top"
+        android:textColor="#fff100" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textptplayer"
+        android:layout_gravity="top"
+        android:textColor="#fff100" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagestar"
+        android:layout_gravity="right|top"
+        android:background="@drawable/star" />
+
+
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.macormap.connectfiveducks.ConnectView"
+        android:id="@+id/connect5_view"
+        android:layout_gravity="center_horizontal|top"
+        android:visibility="visible" />
+
+    <!-- little  Duck Fork -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frameLittleDuck"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageG1"
+            android:src="@drawable/gobbo1"
+            android:visibility="visible"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageG2"
+            android:src="@drawable/gobbo2"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageG3"
+            android:src="@drawable/gobbo3"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageG4"
+            android:src="@drawable/gobbo4"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+
+    <!-- little Baloon -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/baseFumettoPiccolo">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/fumettoPiccolo"
+            android:layout_gravity="left|top"
+            android:background="@drawable/fumettopiccolo"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:text="Prima Riga"
+            android:id="@+id/FpiccoloR1"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"
+            android:textColor="#330000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:text="Seconda Riga"
+            android:id="@+id/FpiccoloR2"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"
+            android:textColor="#330000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:text="Terza Riga"
+            android:id="@+id/FpiccoloR3"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"
+            android:textColor="#330000" />
+
+    </FrameLayout>
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/backbut_game"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/back" />
+
+
+</FrameLayout>

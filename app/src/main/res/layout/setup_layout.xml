@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo_setup">
+
+
+<!-- Sound OnOff Button -->
+    <ImageButton
+        android:id="@+id/but_setup_soundoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:state_checked="true"
+        android:background="@drawable/but_sound_state" />
+
+     <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/backbut_setup"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/back" />
+
+
+
+    <CheckBox
+        android:id="@+id/but_setup_choise1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mychecker_state"
+        android:state_checked="true"/>
+
+    <CheckBox
+        android:id="@+id/but_setup_choise2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:state_checked="false"
+        android:background="@drawable/mychecker_state" />
+
+    <CheckBox
+        android:id="@+id/but_setup_choise3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:state_checked="false"
+        android:background="@drawable/mychecker_state" />
+
+    <CheckBox
+        android:id="@+id/but_setup_choise4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:state_checked="false"
+        android:background="@drawable/mychecker_state" />
+
+    <CheckBox
+        android:id="@+id/but_setup_choise5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:state_checked="true"
+        android:background="@drawable/mychecker_state" />
+
+
+
+</RelativeLayout>
